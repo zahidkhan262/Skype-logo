@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skype||logo</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        width: 100%;
+        height: 100vh;
+      }
+      .skype-logo {
+        background: #019fee;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+          rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      }
+      .skype-logo::before {
+        content: "";
+        position: absolute;
+        width: 55px;
+        height: 55px;
+        background: #019fee;
+        border-radius: 50%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+          rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        z-index: -1;
+        transform: translate(0, -5px);
+      }
+      .skype-logo::after {
+        content: "";
+        position: absolute;
+        width: 55px;
+        height: 55px;
+        background: #019fee;
+        border-radius: 50%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+          rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        transform: translate(43px, 7px);
+        z-index: -1;
+      }
+      h2 {
+        position: relative;
+        top: 24px;
+        left: 38px;
+        font-size: 39px;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="skype-logo">
+      <h2>S</h2>
+    </div>
+  </body>
+</html>
